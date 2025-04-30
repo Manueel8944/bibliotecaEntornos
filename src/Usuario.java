@@ -51,11 +51,10 @@ public class Usuario {
 
     @Override
     public String toString() {
-        return "Usuario{" +
-                "nombre='" + nombre + '\'' +
-                ", apellidos='" + apellidos + '\'' +
-                ", dni='" + dni + '\'' +
-                ", librosPrestados=" + librosPrestados +
-                '}';
+        return
+                "Nombre: " + nombre +
+                " | Apellidos: " + apellidos +
+                " | Dni: " + dni +
+                " | Libros Prestados:" + librosPrestados;
     }
 }
